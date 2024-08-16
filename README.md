@@ -1,1 +1,2 @@
-# iStumblerLabs.github.io
+# iStumbler Labs Blog
+

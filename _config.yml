@@ -1,0 +1,10 @@
+lsi: false
+safe: true
+source: [TODO_tld]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  match_engine: mathjax
+  syntax_highlighter: rogue
