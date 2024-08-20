@@ -1,10 +1,26 @@
+title: iStumbler Labs Blog
+email: support@istumbler.net
+description: >-
+  It's just, like, my opinion, man.
+baseurl: ""
+url: "https://blog.istumbler.net"
+github_username: iStumblerLabs
+
+# github pages
 lsi: false
 safe: true
-source: [TODO_tld]
+source: .
 incremental: false
 highlighter: rouge
+
 gist:
   noscript: false
+
 kramdown:
   match_engine: mathjax
   syntax_highlighter: rogue
+
+# build settings
+# theme: mimima
+plugins:
+  - jekyll-feed
