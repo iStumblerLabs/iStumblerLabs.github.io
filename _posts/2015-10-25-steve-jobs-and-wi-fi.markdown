@@ -1,3 +1,7 @@
+---
+title: Steve Jobs and Wi-Fi
+---
+
 <style type="css">
 	.quote {
 		width: 256px;
