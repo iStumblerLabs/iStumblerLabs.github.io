@@ -7,7 +7,12 @@ layout: home
 <ul>
   {% for post in site.posts %}
 	<li>
-	  {{ post.date }}&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
+	  {{ post.date | date_to_rfc822 }}&nbsp;<a href="{{ post.url }}">{{ post.title }}</a><br>
+	  <blockquote>
+	  {{ post.excerpt }}
+	  </blockquote>
+	  <br>
+	  <hr>
 	</li>
   {% endfor %}
 </ul>
