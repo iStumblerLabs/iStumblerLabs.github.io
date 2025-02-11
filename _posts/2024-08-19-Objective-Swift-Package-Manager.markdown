@@ -7,7 +7,9 @@ title: Updating Objective-C Frameworks for Swift Package Manager
 
 ## Intro
 
-You have a dusty old Objective-C framework that you want to publish as a [Swift Package Manager](https://developer.apple.com/documentation/xcode/swift-packages) Library.
+<!— excerpt-start —>
+
+You have a dusty old Objective-C framework that you want to publish as a [Swift Package Manager](https://developer.apple.com/documentation/xcode/swift-packages) Library. Here’s how.
 
 <!— excerpt-end —>
 

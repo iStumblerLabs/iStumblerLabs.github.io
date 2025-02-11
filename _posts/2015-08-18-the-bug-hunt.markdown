@@ -4,6 +4,8 @@
 
 ## HOW I LEARNED TO STOP WORRYING AND LOVE BUG REPORTS
 
+<!— excerpt-start —>
+
 iStumbler was free software for a long time, of course I did everything I could to make it useful and bug free but when bug reports would come in, they were tagged and fixed in the next version of the app. Sometimes that was a long time later. If someone was really upset about a particular issue, I could always direct them to the source code and suggest that a patch would always be appreciated. That was not always appreciated; but at least it was a viable option.
 
 <!— excerpt-end —>

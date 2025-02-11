@@ -13,6 +13,8 @@ title: Steve Jobs and Wi-Fi
 
 # Steve Jobs and Wi-Fi
 
+<!— excerpt-start —>
+
 At Macworld NY in 1999, Steve Jobs, then the [iCEO](https://en.wikipedia.org/wiki/Steve_Jobs) of Apple, [introduced](https://www.youtube.com/watch?v=3iTNWZF2m3o) the first iBook. With bright colorful polycarbonate cases and a convenient tote handle, the iBook was the final piece of the Four Quadrant strategy that brought Apple back from the brink of insolvency. It was also the first portable computer to include wireless connectivity built-in. Paired with the original AirPort access point it was the first wireless networking system for consumers, and a huge hit with the crowd at the show, and it ushered in the age of Wi-Fi.
 
 <!— excerpt-end —>

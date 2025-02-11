@@ -1,7 +1,11 @@
 
 # This One Weird Trick to Improve Your Wi-Fi Reception
 
+<!— excerpt-start —>
+
 Recently on MacGeek Gab, I was asked about the ‘correct’ antenna orientation for Wi-Fi routers. Off the cuff I replied: “one up, one down,” which is how I habitually orient antennas in the familiar two-monopole configuration.
+
+<!— excerpt-end —>
 
 ![Think Perpendicular for Antenna Placement](/images/2014/OWIT-01-antenna-placement.webp)
 
@@ -9,7 +13,6 @@ My rationale, based on my rudimentary knowledge of antenna and RF design was tha
 
 In discussing the issue after the episode aired, and doing some research I learned some things about antennas and diversity that I didn’t know before and found very interesting. Besides polarization, aligning the antennas at right angles has two other benefits, both paid for with marginal range loss:
 
-<!— excerpt-end —>
 
 ## POLARIZING THE DISCUSSION
 
