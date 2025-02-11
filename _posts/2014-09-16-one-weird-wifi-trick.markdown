@@ -9,6 +9,8 @@ My rationale, based on my rudimentary knowledge of antenna and RF design was tha
 
 In discussing the issue after the episode aired, and doing some research I learned some things about antennas and diversity that I didn’t know before and found very interesting. Besides polarization, aligning the antennas at right angles has two other benefits, both paid for with marginal range loss:
 
+<!— excerpt-end —>
+
 ## POLARIZING THE DISCUSSION
 
 The first questions came up about polarization, what is it exactly and why is it better to have more than one polarity?

@@ -8,6 +8,8 @@ I’m not here to judge, really. Some people want to share pictures of themselve
 
 Let’s apply security fundamentals to the problem and see how we can minimize risk and still provide for digitally mediated intimacy. Voice, Live Video and Pictures are the big three media types when it comes to private single-cast messaging, so how do we secure those modes of communication?
 
+<!— excerpt-end —>
+
 ## SEPARATION OF CONCERNS
 
 The first security principal users should apply is don’t use a secure device for daily activities. We break the letter of this rule daily with our desktop, laptop and mobile devices, because generally it only becomes a problem when a system is compromised. Now, loosing control over your bank accounts, credit cards, etc, for a few days is a serious inconvenience but loosing control of compromising information is much more serious, once it’s out of the bottle it’s almost impossible to get back.

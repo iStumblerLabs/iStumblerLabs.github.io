@@ -6,6 +6,8 @@
 
 iStumbler was free software for a long time, of course I did everything I could to make it useful and bug free but when bug reports would come in, they were tagged and fixed in the next version of the app. Sometimes that was a long time later. If someone was really upset about a particular issue, I could always direct them to the source code and suggest that a patch would always be appreciated. That was not always appreciated; but at least it was a viable option.
 
+<!— excerpt-end —>
+
 Now that iStumbler is neither Free nor Open Source those convenient lines of escape have been closed off, and since I’m interested in having a lot of happy paying customers, any bugs they report have to be fixed. Since the initial release of iStumbler 100 I’ve done more than ten bug-fix releases and one feature release, focused on bringing back features dropped since Release 99 because they had bugs and fixing new issues found in the field. Here’s a short list of hi-lights complied from the change log:
 
 - Build 88: MAC Address Formatting and logging fixes, licensing bugs

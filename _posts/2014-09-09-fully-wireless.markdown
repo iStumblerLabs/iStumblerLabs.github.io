@@ -4,6 +4,8 @@ The Apple Watch is many things: a refined product entering an expectant market, 
 
 This would all be enough, but the biggest step forward for the Apple Watch is how completely wireless it is: inductive charging and no docking port makes it the first completely wireless product Apple has produced. All communication with the device happens wirelessly, and when even the charging pins aren’t exposed the design lends itself to things that weren’t possible with ports and promises to deliver an extremely reliable platform.
 
+<!— excerpt-end —>
+
 ## WHITHER WI-FI?
 
 

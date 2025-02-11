@@ -8,6 +8,8 @@ Code review is the new Agile; a software development best practice that’s beco
 
 While the benefits of code review are fairly well established, there isn’t a lot of guidance on how to do code reviews in a way that both improves the code and is collegial. Here’s how to usefully and productively review code:
 
+<!— excerpt-end —>
+
 ## Review Function, Not Form
 
 Comments which focus on the coding style, often in service of ‘readability’ are the first cardinal sin of reviews. Let’s be clear: code style means nothing to the compiler, the end users or even in most cases the maintenance programmers who will eventually take over care and feeding of your code base. As a purely aesthetic concern it has no place in the review process.
