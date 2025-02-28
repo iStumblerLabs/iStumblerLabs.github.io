@@ -7,7 +7,7 @@
 
 # Automated Dependency Management Considered Harmful
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This applies equally to any dependency manager, any platform, it&#39;s a systemic issue, not a critique of any one system (i.e. if you are a partisans and thinks your system is better, it&#39;s not, they are equivalent in their defects)</p>&mdash; iStumbler Labs (@istumbler) <a href="https://twitter.com/istumbler/status/1273300794490548225?ref_src=twsrc%5Etfw">June 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This applies equally to any dependency manager, any platform, it&#39;s a systemic issue, not a critique of any one system (i.e. if you are a partisans and thinks your system is better, it&#39;s not, they are equivalent in their defects)</p>&mdash; iStumbler Labs (@istumbler) <a href="https://twitter.com/istumbler/status/1273300794490548225?ref_src=twsrc%5Etfw">June 17, 2020</a></blockquote>
 
 TL;DR: You cannot depend on a dependency manager. You should not be using a dependency manager to manage your apps dependencies. The hard part of managing dependencies is not resolving the dependency graph, it's resisting the temptation to use so many libraries.
 
