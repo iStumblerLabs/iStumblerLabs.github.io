@@ -7,11 +7,11 @@ title: Updating Objective-C Frameworks for Swift Package Manager
 
 ## Intro
 
-<!— excerpt-start —>
+<!—- excerpt-start -—>
 
 You have a dusty old Objective-C framework that you want to publish as a [Swift Package Manager](https://developer.apple.com/documentation/xcode/swift-packages) Library. Here’s how.
 
-<!— excerpt-end —>
+<!-— excerpt-end -—>
 
 iStumbler Labs publishes a number of Objective-C frameworks and they all need updating to work with Swift Package Manager:
 
