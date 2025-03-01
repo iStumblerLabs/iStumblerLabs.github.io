@@ -10,6 +10,5 @@ layout: home
 	<code>{{ post.date | date_to_rfc822 }}</code><br>
 	<blockquote>{{ post.content | strip_html | truncatewords: 25 }}</blockquote>
 	<br>
-	<hr>
   {% endfor %}
 </ul>
