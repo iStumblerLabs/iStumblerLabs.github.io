@@ -1,6 +1,4 @@
-# We Are Now Fully Wireless
-
-<!-- excerpt-start -->
+## We Are Now Fully Wireless
 
 The Apple Watch is many things: a refined product entering an expectant market, 
 Apple’s first post-Steve product, a companion for your iPhone, a bundle of 
@@ -14,9 +12,7 @@ with the device happens wirelessly, and when even the charging pins aren’t
 exposed the design lends itself to things that weren’t possible with ports 
 and promises to deliver an extremely reliable platform.
 
-<!-- excerpt-end -->
-
-## WHITHER WI-FI?
+### WHITHER WI-FI?
 
 ![Apple Watch S1 Board Showing a Lone U.FL Antenna Connector](/images/2014/20140909-fully-wireless.webp)
 
@@ -28,7 +24,7 @@ payment support it looks like a Bluetooth LE and NFC radios will be included at
 a minimum. But what about Wi-Fi? We won’t know for sure until we get closer to 
 the release date.
 
-## RATE vs RANGE
+### RATE vs RANGE
 
 The potential inclusion of Wi-Fi would make the Apple Watch a real game changer. 
 With the ability of iOS and Mac OS to synch keychains, including Wi-Fi passwords, 
@@ -43,7 +39,7 @@ battery (lack of battery life numbers is a serious omission, I expect they are
 targeting 18 hours on 4 hours charging duty cycle and they haven’t hit that target 
 just yet).
 
-## NOT FULLY CLEAR
+### NOT FULLY CLEAR
 
 I’ve never really liked NFC. As an RFID solution it’s interesting but it solves 
 a problem I really wish we didn’t have: how do I connect to a device that’s right 
@@ -66,7 +62,7 @@ to keep an eye on, as with the iPhone Six ‘Phuls’ model, it’s a concession
 the market wants, not a creation for the world of tomorrow, which is typically the 
 target for our favorite fruit company.
 
-## ALL TOO SOON?
+### ALL TOO SOON?
 
 Finally, the timing of the pre-announcement is interesting. No fixed release date, 
 but a very clear ‘not this Christmas’. I suspect more than a few people will wake up 
