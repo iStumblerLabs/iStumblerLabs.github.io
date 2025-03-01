@@ -2,13 +2,13 @@
 
 ![Apple Nipple](/images/2014/SS-01-apple-nipple.webp)
 
-<!— excerpt-start —>
+<!-- excerpt-start -->
 
 In the wake of the widespread leaks of intimate personal photos this last week, many purportedly ripped from iCloud backups I’ve given some thought to the problem of how to safely share confidential and potentially embarrassing photos with as little risk of accidental or malicious exposure as possible.
 
 I’m not here to judge, really. Some people want to share pictures of themselves in compromising situations, and it may be best to simply accept that. Even rich and famous people who get more than enough attention on a day to day basis want to have intimate relationships, and share things privately, despite the paparazzi. Now, the question we have before us is how to securely share our private moments with the people closest to us, without unduly risking future compromise?
 
-<!— excerpt-end —>
+<!-- excerpt-end -->
 
 Let’s apply security fundamentals to the problem and see how we can minimize risk and still provide for digitally mediated intimacy. Voice, Live Video and Pictures are the big three media types when it comes to private single-cast messaging, so how do we secure those modes of communication?
 
