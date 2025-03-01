@@ -1,6 +1,6 @@
 # We Are Now Fully Wireless
 
-<!—- excerpt-start -—>
+<!-- excerpt-start -->
 
 The Apple Watch is many things: a refined product entering an expectant market, 
 Apple’s first post-Steve product, a companion for your iPhone, a bundle of 
@@ -14,7 +14,7 @@ with the device happens wirelessly, and when even the charging pins aren’t
 exposed the design lends itself to things that weren’t possible with ports 
 and promises to deliver an extremely reliable platform.
 
-<!—- excerpt-end -—>
+<!-- excerpt-end -->
 
 ## WHITHER WI-FI?
 
