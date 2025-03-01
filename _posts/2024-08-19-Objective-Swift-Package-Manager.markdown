@@ -3,9 +3,9 @@ layout: post
 title: Updating Objective-C Frameworks for Swift Package Manager
 ---
 
-# Updating Objective-C Frameworks for Swift Package Manager
+### Updating Objective-C Frameworks for Swift Package Manager
 
-## Intro
+#### Intro
 
 <!-- excerpt-start -->
 
@@ -25,7 +25,7 @@ iStumbler Labs publishes a number of Objective-C frameworks and they all need up
 
 Updating all of these for Swift Package Manager was a bit of a chore but there's an easy to implement process to make it less painless.
 
-## Follow the Project Layout Conventions
+#### Follow the Project Layout Conventions
 
 Swift Package Manager (SPM) expects a particular source code layout, e.g. 
 
@@ -40,7 +40,7 @@ Swift Package Manager (SPM) expects a particular source code layout, e.g.
 
 It's possible to configure different locations for source files and includes, however it's easiest to follow the SPM convention, as this simplifies the package description and makes it easier for other developers to understand the project structure.
 
-## Example Project
+#### Example Project
 
 We’ll use IcedHTTP as an example, here is the finder layout:
 
