@@ -7,13 +7,12 @@ title: Updating Objective-C Frameworks for Swift Package Manager
 
 ### Intro
 
-<!-- excerpt-start -->
+You have a dusty old Objective-C framework that you want to publish as a 
+[Swift Package Manager](https://developer.apple.com/documentation/xcode/swift-packages) 
+Library. Here’s how.
 
-You have a dusty old Objective-C framework that you want to publish as a [Swift Package Manager](https://developer.apple.com/documentation/xcode/swift-packages) Library. Here’s how.
-
-<!-- excerpt-end -->
-
-iStumbler Labs publishes a number of Objective-C frameworks and they all need updating to work with Swift Package Manager:
+iStumbler Labs publishes a number of Objective-C frameworks and they all need updating 
+to work with Swift Package Manager:
 
 - [KitBridge](https://github.com/iStumblerLabs/KitBridge) — KitBridge allows you to create views which can be used in iOS, iPadOS, macOS, and tvOS applications.
   - [SparkKit](https://github.com/iStumblerLabs/SparkKit) - Small, Simple and Fast; Line, Pie, Dial, Bar, Ring, Stack and Grid Views for macOS, iOS and tvOS
