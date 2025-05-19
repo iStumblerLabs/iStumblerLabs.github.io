@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This One Weird Trick to Improve Your Wi-Fi Reception
+title: The Bug Hunt
 tag:
 - wi-fi
 - performance
