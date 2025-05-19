@@ -7,11 +7,9 @@ tag:
 - internet
 ---
 
-<!-- excerpt-start -->
+## Wi-Fi’s Service Discovery Problem
 
 Picture yourself in a conference room; you are a visitor here, sitting in front of a laptop looking at a document that you need to send to your host, who works here. You host needs to review the document before sending it on for approvals. There is a lot of money hanging on these approvals and you are anxious to get the document reviewed.
-
-<!-- excerpt-end -->
 
 It’s not a huge file, but it’s not small either, too big for email, let’s say a whopping 100 Mb. And it just so happens that the internet connection in this conference room is slow, very slow something like 100 Kb/s, even if you could upload the file to a sharing site your host will have to download it again, taking twice as long…
 

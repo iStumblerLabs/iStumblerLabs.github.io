@@ -6,18 +6,14 @@ tag:
 - opinion
 ---
 
-# Code Review: You Are Doing it Wrong
+## Code Review: You Are Doing it Wrong
 
 <img src="/images/2016/20160424-code-review.webp" alt="Don't Blame Me! I Copied the Code From Jim." width="512"><br>
 © Geek and Poke — https://geek-and-poke.com
 
-<!-- excerpt-start -->
-
-Code review is the new Agile; a software development best practice that’s become de rigueur in many shops. While having more eyes on code is generally a Good Thing™, I’ve see review practices in place which are worse than a waste of time. Instead of helping to produce high quality code, poor or missing code review guidelines can impede progress, create frustration, sap motivation, and in extreme cases; enable harassment.
+Code review is the new Agile; a software development best practice that’s become _de rigueur_ in many shops. While having more eyes on code is generally a Good Thing™, I’ve see review practices in place which are worse than a waste of time. Instead of helping to produce high quality code, poor or missing code review guidelines can impede progress, create frustration, sap motivation, and in extreme cases; enable harassment.
 
 While the benefits of code review are fairly well established, there isn’t a lot of guidance on how to do code reviews in a way that both improves the code and is collegial. Here’s how to usefully and productively review code:
-
-<!-- excerpt-end -->
 
 ## Review Function, Not Form
 
@@ -49,7 +45,7 @@ Nitpicking is easy, spotting bugs and writing tests with good code coverage is h
 
 Besides my personal experience with the de-facto veto power given to reviewers in the name of consensus; I’ve heard stories about bad actors who used the review process as a way to effectively reduce their co-workers ability to make progress on features, resulting in either poor reviews or extreme frustration. While thankfully rare, these incidences, like other forms of workplace harassment should not be tolerated by management.
 
-We have come a long way in the modern workplace to recognizing and confronting many forms of harassment, which generally makes for a more pleasant and productive working environment for everyone. Technical harassment is sadly not a rare issue, but an important one for managers to recognized and deal with just as quuckly as any other form of unprofessional behavior.
+We have come a long way in the modern workplace to recognizing and confronting many forms of harassment, which generally makes for a more pleasant and productive working environment for everyone. Technical harassment is sadly not a rare issue, but an important one for managers to recognized and deal with just as quickly as any other form of unprofessional behavior.
 
 As code writers it’s up to us to decide how we work together to build reliable, maintainable systems. We should focus on how we can help each other to write better code, not now we can criticize and obstruct using technical process.
 

@@ -11,12 +11,8 @@ tag:
 
 <img alt="" src="https://cdn-images-1.medium.com/max/105/0*kiJXsEiyf604NzCi.jpg" />
 
-<!-- excerpt-start -->
-
 The rumors were true, the leaked components at least plausibly functional, it finally happened: 
 bigger iPhones.
-
-<!-- excerpt-end -->
 
 ### YOU’RE GONNA NEED A BIGGER POCKET
 

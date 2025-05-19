@@ -8,11 +8,7 @@ tag:
 ---
 #### Developing Apps for macOS, iOS and tvOS using KitBridge
 
-<figure>![](https://cdn-images-1.medium.com/max/1024/1*4M3tUZsNN2Owjy4tCijm-w.png)
-
-<figcaption>Behold, OrangeCard running on macOS, tvOS and iOS!</figcaption>
-
-</figure>
+![](https://cdn-images-1.medium.com/max/1024/1*4M3tUZsNN2Owjy4tCijm-w.png "Behold, OrangeCard running on macOS, tvOS and iOS!")
 
 So, you want to write an app for iOS, macOS and maybe even tvOS? There’s been [a lot of talk](https://daringfireball.net/2017/12/marzipan) lately about the [UXKit.framework](https://github.com/insidegui/UXKitDemo) inside of Photos.app or possibly another replacement framework to bridge the AppKit/UIKit divide. While this may yet come to pass, there’s nothing stopping us from improving the portability of code across macOS, iOS and tvOS _right now_.
 
@@ -24,7 +20,7 @@ In particular, there are a number of support classes which could have been share
 
 ### Bridge Over Troubled Waters
 
-First, a little history, [KitBridge](https://github.com/alfwatt/KitBridge) is fairly new hotness, started just this year based on some initial ideas prototyped in [QRKit](https://github.com/alfwatt/QRKit), which implements a very limited cross-platform view framework using a simple [bridging heade](https://github.com/alfwatt/QRKit/blob/master/QRKit/QRDefines.h)r, an NSImage category and strategic use of **#ifdef** directives in the implementations. That simple header and category allows QRKit to provide the same API across all it’s target platforms.
+First, a little history, [KitBridge](https://github.com/alfwatt/KitBridge) is fairly new hotness, started just this year based on some initial ideas prototyped in [QRKit](https://github.com/alfwatt/QRKit), which implements a very limited cross-platform view framework using a simple [bridging header](https://github.com/alfwatt/QRKit/blob/master/QRKit/QRDefines.h), an NSImage category and strategic use of **#ifdef** directives in the implementations. That simple header and category allows QRKit to provide the same API across all it’s target platforms.
 
 KitBridge takes that starting point and expands on it to include more classes and more categories, which bring balance to view development. With KitBridge you can always use the UIKit API for the bridged classes on either platform. On iOS and tvOS the native methods are used and on macOS (where there is typically more CPU and memory to go around) the methods are provided by categories. There are some cases where UIKit lacks a trusty AppKit method and those are provided as well.
 
@@ -32,13 +28,9 @@ Besides expanding on the number of classes that the bridge supports, KitBridge a
 
 ### Building On Top of the Bridge
 
-<figure>![](https://cdn-images-1.medium.com/max/1024/1*0pWKqZ41IoelUFRczGjLBw.png)
+![](https://cdn-images-1.medium.com/max/1024/1*0pWKqZ41IoelUFRczGjLBw.png "Who doesn’t love a good block diagram?")
 
-<figcaption>Who doesn’t love a good block diagram?</figcaption>
-
-</figure>
-
-While KitBridge does not cover every possible porting issue (I’ve been adding affordances one by one as I need them for various apps) it does provide a lot of support for writing protable Views and Controllers and already supports two other frameworks which provide a useful set of views: [CardView.framework](https://github.com/alfwatt/CardView) and [SparkKit.framework](https://github.com/alfwatt/SparkKit).
+While KitBridge does not cover every possible porting issue (I’ve been adding affordances one by one as I need them for various apps) it does provide a lot of support for writing portable Views and Controllers and already supports two other frameworks which provide a useful set of views: [CardView.framework](https://github.com/alfwatt/CardView) and [SparkKit.framework](https://github.com/alfwatt/SparkKit).
 
 CardView.framework provides a NS/UITextView subclass with a single interface for adding styled text and graphics. CardView was originally extracted from [DeskLamp](https://desklampx.com), and made it’s way into OrangeCard and iStumbler. Now that the framework has been integrated with KitBridge, I’ll be bringing OrangeCard to iOS and tvOS from macOS, once the non-UI platform differences are taken into account.
 

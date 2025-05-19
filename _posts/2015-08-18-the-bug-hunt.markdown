@@ -88,7 +88,7 @@ Tacking those kind of issues often time means running some code at the time the 
 - This window contains a WebView, which loads the old ClickToFlash plugin which contains an old Sparkle framework
 - The old Sparkle framework over-writes the newer one you included in your application
 - All this happens less than a second, long before the window is drawn on the screen
-= By the time your user clicks the ‘Upgrade Now’ button the outlet it was attached to is long gone, having been added sometime between the old and new verions of Sparkle
+- By the time your user clicks the ‘Upgrade Now’ button the outlet it was attached to is long gone, having been added sometime between the old and new versions of Sparkle
 
 As you might imagine, it took some time to work this all out and devise and test a solution, thanks to the help of a very patient and responsive user as well as the developers of ClickToFlash, I was able to wrap the diagnostic process (a particular Exception signature is detected) and remediation: prompt the user for permission to remove the old ClickToFlash plugin and restart the app, into a ExceptionRecovery object.
 

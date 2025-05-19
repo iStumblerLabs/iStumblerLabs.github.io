@@ -19,11 +19,7 @@ Seems simple enough, we have had [CoreWLAN](https://developer.apple.com/library/
 
 Just one small wrinkle; there was a question about _which_ Wi-Fi API was going to be published. That WWDC video isn’t available, I presume, because the API that I got up on stage and presented, wasn’t CoreWLAN, and neither the placeholder or the eventual incumbent were my first choice. But no matter, there was an API, it did everything that was needed and it replaced the reverse engineered [Apple80211.h](http://www.macstumbler.com/Apple80211.h) file everyone had been using up to that point.
 
-<figure>![](https://cdn-images-1.medium.com/max/460/1*FumEQDdB_Z_EsAlBTk_chg.jpeg)
-
-<figcaption>We’re done here, right?</figcaption>
-
-</figure>
+![](https://cdn-images-1.medium.com/max/460/1*FumEQDdB_Z_EsAlBTk_chg.jpeg "We’re done here, right?")
 
 #### Let’s Roll Some Wi-Fi Apps!
 
@@ -31,11 +27,7 @@ As happy as I was to help publish the Wi-Fi API and get it introduced it to the 
 
 Despite my selfish motivation, I am very proud to have enabled a number of other Wi-Fi apps, which eventually made their way to, the Mac App store. Even if one of them is an [unbelievable facile](https://itunes.apple.com/us/app/wifi-manager/id483772322?mt=12) compile and submit of the example code for CoreWLAN:
 
-<figure>![](https://cdn-images-1.medium.com/max/1024/1*cXnkMrtRyKMIfQJOae3zMA.png)
-
-<figcaption>Something is missing…</figcaption>
-
-</figure>
+![](https://cdn-images-1.medium.com/max/1024/1*cXnkMrtRyKMIfQJOae3zMA.png "Something is missing…")
 
 #### But then iOS
 
@@ -43,11 +35,8 @@ The development of iOS and iPhone was famously segregated from the existing Mac 
 
 The iOS Wi-Fi team decided early that they were not going to offer a public API and have been doggedly hardening each release to prevent access to apps who try to use it, even on Jailbroken devices. My understanding is that it’s considered a privacy risk, as a Wi-Fi scan list can be submitted to a number of online services to determine the user’s location (which is exactly what CoreLocation does). If only there were some way to notify the user that an App wanted access to a hardware feature with some privacy or security implication…
 
-<figure>![](https://cdn-images-1.medium.com/max/1024/1*gFXC-lcHAPbGtCECHg3MLQ.png)
+![](https://cdn-images-1.medium.com/max/1024/1*gFXC-lcHAPbGtCECHg3MLQ.png "I just can’t think of a way to get affirmative consent from a user…")
 
-<figcaption>I just can’t think of a way to get affirmative consent from a user…</figcaption>
-
-</figure>
 
 #### Enter Sandbox
 

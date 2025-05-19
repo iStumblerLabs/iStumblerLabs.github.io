@@ -9,11 +9,9 @@ tag:
 - imac-pro
 ---
 
-<figure>![](https://cdn-images-1.medium.com/max/829/1*kzqE0rPrvzgyF82BdF8a7w.png)
+![](https://cdn-images-1.medium.com/max/829/1*kzqE0rPrvzgyF82BdF8a7w.png)
 
-<figcaption>[MacRumors Mac Buying Guide](https://buyersguide.macrumors.com/#Mac) May 2017</figcaption>
-
-</figure>
+[MacRumors Mac Buying Guide](https://buyersguide.macrumors.com/#Mac) May 2017
 
 > The **Osborne effect** is a term referring to the [unintended consequences](https://en.wikipedia.org/wiki/Unintended_consequences) of a company announcing a future product, unaware of the risks involved or when the timing is misjudged, which ends up having a negative impact on the sales of the current product. This is often the case when a product is announced too long before its actual availability. This has the immediate effect of customers canceling or deferring orders for the current product, knowing that it will soon be obsolete, and any unexpected delays often means the new product comes to be perceived as [vaporware](https://en.wikipedia.org/wiki/Vaporware), damaging the company’s credibility and profitability. - [Wikipedia](https://en.wikipedia.org/wiki/Osborne_effect)
 

@@ -11,7 +11,7 @@ There is a perverse inversion in many Senior Level engineering job postings; the
 
 > — Steve Jobs
 
-I suspect that these postings are the result of a manager trying to maintain a system designed by a f _orward looking_ developer who sold the team on it’s benefits but never quite realized them before departing for greener pastures, leaving an big ‘ol tech stack in the repo behind them as they go. By suspicions I mean; I’ve seen this happen more than once. I might have done it myself, maybe, long ago.
+I suspect that these postings are the result of a manager trying to maintain a system designed by a _forward looking_ developer who sold the team on it’s benefits but never quite realized them before departing for greener pastures, leaving an big ‘ol tech stack in the repo behind them as they go. By suspicions I mean; I’ve seen this happen more than once. I might have done it myself, maybe, long ago.
 
 Typically these stacks will provide an “Over the Top” solution to programing on the target platform, replacing some or all of the vendors native tools, with more “modern” or “advanced” or “convenient” or “expressive” or “safe” versions, often in combination, always without quantification. The sales pitches vary from sensible and desirable, such as allowing for cross platform development from a single code base to the outer orbits of architectural astronauts, looking for a [magic bullet solution](https://en.wikipedia.org/wiki/No_Silver_Bullet) to solve all software development problems with concise self documenting code.
 
