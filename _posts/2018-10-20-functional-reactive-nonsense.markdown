@@ -3,7 +3,7 @@ layout: post
 title: Functional Reactive Nonsense
 ---
 
-<figure>![](https://cdn-images-1.medium.com/max/309/1*sUrELFhihxAtm21dthWzxw@2x.jpeg)</figure>
+![](https://cdn-images-1.medium.com/max/309/1*sUrELFhihxAtm21dthWzxw@2x.jpeg)
 
 There is a perverse inversion in many Senior Level engineering job postings; they rigidly dictate a particular stack of technology, which the company has typically invested considerable time in implementing and tailoring to the needs of their application. While this makes some sense for a mid-level or junior developer its he opposite of what you should be looking for in a Senior engineer:
 
