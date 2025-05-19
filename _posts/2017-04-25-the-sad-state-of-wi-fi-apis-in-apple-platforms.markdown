@@ -2,7 +2,7 @@
 layout: post
 title: The Sad State of Wi-Fi APIs in Apple Platforms
 tag:
-- wifi
+- wi-fi
 - apple
 - api
 - wwdc

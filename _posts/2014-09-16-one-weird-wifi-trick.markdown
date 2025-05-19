@@ -1,3 +1,11 @@
+---
+layout: post
+title: This One Weird Trick to Improve Your Wi-Fi Reception
+tag:
+- wi-fi
+- performance
+- radio frequency
+---
 
 ## This One Weird Trick to Improve Your Wi-Fi Reception
 

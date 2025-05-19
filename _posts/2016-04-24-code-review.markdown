@@ -1,3 +1,10 @@
+---
+layout: post
+title: Code Review; You Are Doing it Wrong
+tag:
+- code review
+- opinion
+---
 
 # Code Review: You Are Doing it Wrong
 

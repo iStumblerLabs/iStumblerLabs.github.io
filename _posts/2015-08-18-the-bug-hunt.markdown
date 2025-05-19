@@ -1,11 +1,18 @@
- # The Bug Hunt
+---
+layout: post
+title: This One Weird Trick to Improve Your Wi-Fi Reception
+tag:
+- wi-fi
+- performance
+- radio frequency
+---
+
+## The Bug Hunt
 
 <img src="/images/2015/20150818-aliens-script.webp" 
 alt="Is this going to be a dand-up fight, or, or another bug-hunt?" width="512">
 
-## HOW I LEARNED TO STOP WORRYING AND LOVE BUG REPORTS
-
-<!-- excerpt-start -->
+### HOW I LEARNED TO STOP WORRYING AND LOVE BUG REPORTS
 
 iStumbler was free software for a long time, of course I did everything I could 
 to make it useful and bug free but when bug reports would come in, they were tagged 
@@ -13,8 +20,6 @@ and fixed in the next version of the app. Sometimes that was a long time later.
 If someone was really upset about a particular issue, I could always direct them 
 to the source code and suggest that a patch would always be appreciated. That was 
 not always appreciated; but at least it was a viable option.
-
-<!-- excerpt-end -->
 
 Now that iStumbler is neither Free nor Open Source those convenient lines of 
 escape have been closed off, and since I’m interested in having a lot of happy 
@@ -38,7 +43,7 @@ All these over the course of just four months, but I’m really happy with the r
 
 Support requests from paying customers are a completely different issue than bug reports from free users: there’s money on the table. Font Scaling and Bold Graph Lines, for example came directly from a support issue which resulted in me issuing a refund because the thin lines and small type just weren’t visible to someone without perfect eyesight. Font Scaling had existed in previous versions but had issues which made me remove it for the 100 initial release.
 
-## IF A CRASH HAPPENS IN THE WOODS
+### IF A CRASH HAPPENS IN THE WOODS
 
 Even with paying customers, the problem is getting people to tell you if there is a problem. Or, perhaps, to tell you there is a problem in a way that you can act on it. Vague bug reports come in to the support email saying “the app crashes”. Without any of the supporting logging, stack tracing and other technical arcana developers spend our days contending with. Normal users seldom care to see these details, and they shouldn’t have to.
 
@@ -52,7 +57,7 @@ It always helps to spell out the requirements: user friendly, private and secure
 
 The first thing I found was the Plausible Labs, PLCrashReporter framework, a liberally licensed native framework for Mac OS and iOS, the only thing missing was the reporting UI and a corresponding CGI script to receive the reports. I slapped those on the side, tested the crash reporting and shipped them in Build 121 along with some Yosemite fixes. Problem solved, right?
 
-## ERRATA AND EXCEPTIONAL SITUATIONS
+### ERRATA AND EXCEPTIONAL SITUATIONS
 
 Now, error handling on OS X and iOS doesn’t have the most coherent developer story. The Foundation and AppKit frameworks, along with the Objective-C runtime provide a number of different ways of dealing with different types of problems, from traditional C return codes in the low level and kernel frameworks, with the occasional use of buffer pointers to get detailed information, to the CFError/NSError abstractions built into CoreFoundation. Add in the C++ and Objective-C Exception handling mechanisms (and I guess Swift now, too) and the UNIX process signals and you have what could be described as a “toxic hell-stew” of problem sources.
 
@@ -60,7 +65,7 @@ Low level errors typically boil up to crashes or exceptions so for our purposes 
 
 So, I added support the CrashReporter for catching and displaying these as well, by intercepting the NSApplication error presentation mechanism the library can provide a report window in place of the standard alert dialog. Similarly, unhanded exceptions which would normally crash the app are caught and presented to the user. Finally, an open ended bug report window allows users to submit any request they like, quickly and right in the app. There’s even a keyboard shortcut: Command + !
 
-## GETTING BURIED
+### GETTING BURIED
 
 Now, the downside of casting a wide net is that you catch a lot of fish, or in this case email Trouble Reports. Incoming support requests went for an easily manageable handful a day to a completely overwhelming 30–100 a day, most of which could not be responded to since they lacked email addresses. With my support inbox overflowing I started looking at options for reducing the deluge to a manageable stream of actionable information.
 
@@ -68,7 +73,7 @@ The first step, of course, it to stop the bleeding. Serious issues which are fre
 
 Once the frequently repeated problems are resolved there is a class of less frequently encountered issues which cause disproportionate user distress. Any issue having to do with updates, licensing and installing the app need to be addressed quickly to help smooth over the rough spots in the application lifecycle. Many of the fixes made to Release 100 dealt with this (and to be fair, licensing was a new feature in this release so you can expect some bugs to shake out of all that new code).
 
-## RECOVERY AND REDEMPTION
+### RECOVERY AND REDEMPTION
 
 Once the bleeding has been stopped, and the loudest complaints taken care of what next? Well, now that the popular and painful issues are out of the way it’s time to go for the really ugly problems. You know the ones: they lurk in the corners of your user experience and wreak such havoc that the only recommended solution is “Just blow everything away and re-install the app.”
 
@@ -87,7 +92,7 @@ Tacking those kind of issues often time means running some code at the time the 
 
 As you might imagine, it took some time to work this all out and devise and test a solution, thanks to the help of a very patient and responsive user as well as the developers of ClickToFlash, I was able to wrap the diagnostic process (a particular Exception signature is detected) and remediation: prompt the user for permission to remove the old ClickToFlash plugin and restart the app, into a ExceptionRecovery object.
 
-## GIVING BACK
+### GIVING BACK
 
 Now, I noted at the beginning of the article that iStumbler used to be Open Source. I’ve always believed in open source software development and kept it that way for more than a decade, but eventually I was curious to see if iStumbler could support me and my family as an indy product. I’ve tried this before on a more limited scale but this time was pretty much a “go for broke” attempt.
 

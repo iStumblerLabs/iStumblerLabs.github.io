@@ -1,15 +1,20 @@
+---
+layout: post
+title: Safer Sexting
+tag:
+- security
+- sexting
+- privacy
+---
+
 ## Safer Sexting
 
 ![Apple Nipple](/images/2014/SS-01-apple-nipple.webp)
-
-<!-- excerpt-start -->
 
 In the wake of the widespread leaks of intimate personal photos this last week, 
 many purportedly ripped from iCloud backups I’ve given some thought to the problem 
 of how to safely share confidential and potentially embarrassing photos with as 
 little risk of accidental or malicious exposure as possible.
-
-<!-- excerpt-end -->
 
 I’m not here to judge, really. Some people want to share pictures of themselves 
 in compromising situations, and it may be best to simply accept that. Even rich and 

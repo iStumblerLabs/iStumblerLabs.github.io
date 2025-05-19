@@ -6,7 +6,7 @@ layout: home
   {% for post in site.posts %}
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	<code>{{ post.date | date_to_rfc822 }}</code><br>
-	<blockquote>{{ post.content | makrdownify | strip_html | truncatewords: 50 }}</blockquote>
+	<blockquote>{{ post.content | markdownify | strip_html | truncatewords: 50 }}</blockquote>
 	<br>
   {% endfor %}
 </ul>
