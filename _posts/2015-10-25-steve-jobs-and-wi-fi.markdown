@@ -47,11 +47,9 @@ When the iPhone was released, it was famously introduced as “a Phone, a Music 
 
 Of course the iPhone had to have Wi-Fi, but it also had a Cellular Data radio which supported the Phone functionality as well as Internet access when away from home or the office. Steve didn’t want to play nicely with the Cellular carriers, Walt Mossberg recalls Steve’s interest in using Wi-Fi to replace cellular:
 
-<blockquote class="quote">
-The first iPhone had a lousy, sluggish, cellular-data network, but it also had a much faster data option: Wi-Fi. It even had a feature (still present, but much less touted) that popped up a list of nearby Wi-Fi networks on the screen, so you could always find one in range.<br>
-<br>
-But, he once told me, there was a big problem with that technique, one that he wanted to fix: Most of the Wi-Fi networks that popped up on his screen couldn’t be used, because they were secured with passwords. Jobs said he understood the need for security, but he was determined to figure out a way to make free, safe, Wi-Fi sharing from homes and small local businesses not only possible, but common.
-</blockquote>
+> The first iPhone had a lousy, sluggish, cellular-data network, but it also had a much faster data option: Wi-Fi. It even had a feature (still present, but much less touted) that popped up a list of nearby Wi-Fi networks on the screen, so you could always find one in range.
+
+> But, he once told me, there was a big problem with that technique, one that he wanted to fix: Most of the Wi-Fi networks that popped up on his screen couldn’t be used, because they were secured with passwords. Jobs said he understood the need for security, but he was determined to figure out a way to make free, safe, Wi-Fi sharing from homes and small local businesses not only possible, but common.
 
 ## How to Become a Bozo
 

@@ -1,9 +1,13 @@
 ## We Are Now Fully Wireless
 
+<!-- excerpt-start -->
+
 The Apple Watch is many things: a refined product entering an expectant market, 
 Apple’s first post-Steve product, a companion for your iPhone, a bundle of 
 sensors and a number of technical innovations; all wrapped up in an amazing 
 package and strapped to your wrist.
+
+<!-- excerpt-end -->
 
 This would all be enough, but the biggest step forward for the Apple Watch 
 is how completely wireless it is: inductive charging and no docking port makes 
