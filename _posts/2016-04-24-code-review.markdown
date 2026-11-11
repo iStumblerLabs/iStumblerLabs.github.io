@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Code Review; You Are Doing it Wrong
+title: "Code Review: You Are Doing it Wrong"
 tag:
 - code review
 - opinion
 ---
-
-## Code Review: You Are Doing it Wrong
 
 <img src="/images/2016/20160424-code-review.webp" alt="Don't Blame Me! I Copied the Code From Jim." width="512"><br>
 © Geek and Poke — https://geek-and-poke.com

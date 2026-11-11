@@ -1,44 +1,54 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<title>{{ page.title }}</title>
+		<title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="apple-itunes-app" content="app-id=1102859121">
+		{% capture summary %}{% if page.collection == "posts" %}{{ page.content | markdownify | strip_html | normalize_whitespace | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+		<meta name="description" content="{{ summary | strip | escape }}">
 
 		<!-- Open Graph data -->
-		<meta property="og:title" content="iStumbler">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://istumbler.net/labs/">
+		<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+		<meta property="og:type" content="{% if page.collection == "posts" %}article{% else %}website{% endif %}">
+		<meta property="og:url" content="{{ page.url | absolute_url }}">
 		<meta property="og:image" content="https://istumbler.net/images/istumbler-logo-black-256.png">
-		<meta property="og:description" content="Handcrafted Tools for Better Computing">
-		<meta property="og:site_name" content="iStumbler Labs">
+		<meta property="og:description" content="{{ summary | strip | escape }}">
+		<meta property="og:site_name" content="{{ site.title }}">
+		{% if page.collection == "posts" %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">{% endif %}
 
 		<link rel="stylesheet" type="text/css" href="//istumbler.net/istumbler.css">
-		<link rel="alternate" type="text/json" href="{{ site.url }}/feeds/feed.json" title="JSON Feed">
+		<link rel="stylesheet" type="text/css" href="{{ '/css/blog.css' | relative_url }}">
+		<link rel="alternate" type="application/feed+json" href="{{ site.url }}/feeds/feed.json" title="JSON Feed">
 		<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feeds/rss.xml" title="RSS Feed">
 		<link rel="icon" href="//istumbler.net/apple-touch-icon-precomposed.png" type="image/png">
 	</head>
-	<body>	
+	<body>
 <div class="banner">
 <div class="header">
-<img class="logo" src="//istumbler.net/images/istumbler-logo-black-256.png" alt="iStumbler Logo">
-<div class="headline">iStumbler Labs Blog</div>
-<div class="tagline">This is Just, Like, My Option, Man.</div>
+<a href="{{ '/' | relative_url }}"><img class="logo" src="//istumbler.net/images/istumbler-logo-black-256.png" alt="iStumbler Logo"></a>
+<div class="headline">{{ site.title }}</div>
+<div class="tagline">This is Just, Like, My Opinion, Man.</div>
 <div class="navigation">
 	<a class="nav" href="//istumbler.net/index.html">iStumbler</a> :
 	<a class="nav" href="//istumbler.net/plugins.html">Features</a> &middot;
 	<a class="nav" href="//istumbler.net/store/">Store</a> &middot;
 	<a class="nav" href="//istumbler.net/help/">Manual</a> :
-	<a class="nav" href="/">Blog</a> &middot;
+	<a class="nav" href="{{ '/' | relative_url }}">Blog</a> &middot;
 	<a class="nav" href="//istumbler.net/labs/">Labs</a>
 </div>
 </div>
 </div><!-- /banner -->
 
-<div class="content">
+<main class="content">
 {{ content }}
-</div><!-- /content -->
+</main><!-- /content -->
+
+<div class="footer">
+	Copyright &copy; 2002&ndash;{{ site.time | date: "%Y" }} Alf Watt &middot;
+	<a href="{{ '/feeds/rss.xml' | relative_url }}">RSS</a> &middot;
+	<a href="{{ '/feeds/feed.json' | relative_url }}">JSON Feed</a>
+</div>
 
 <!-- Matomo -->
 <script type="text/javascript">

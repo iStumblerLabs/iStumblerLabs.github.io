@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="post-list">
+{{ content }}
+{% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in years %}
+	<section class="post-year">
+		<h2 class="post-year-title">{{ year.name }}</h2>
+		{% for post in year.items %}
+		<article class="post-item">
+			<h3 class="post-item-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+			<p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d" }}</time></p>
+			<p class="post-item-summary">{{ post.content | markdownify | strip_html | normalize_whitespace | truncatewords: 40 }}</p>
+		</article>
+		{% endfor %}
+	</section>
+{% endfor %}
+</div>

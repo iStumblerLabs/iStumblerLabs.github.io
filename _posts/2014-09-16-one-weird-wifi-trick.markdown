@@ -7,8 +7,6 @@ tag:
 - radio frequency
 ---
 
-## This One Weird Trick to Improve Your Wi-Fi Reception
-
 Recently on MacGeek Gab, I was asked about the ‘correct’ antenna orientation for Wi-Fi 
 routers. Off the cuff I replied: “one up, one down,” which is how I habitually orient 
 antennas in the familiar two-monopole configuration.

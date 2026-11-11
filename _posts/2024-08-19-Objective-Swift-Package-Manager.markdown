@@ -3,8 +3,6 @@ layout: post
 title: Updating Objective-C Frameworks for Swift Package Manager
 ---
 
-## Updating Objective-C Frameworks for Swift Package Manager
-
 ### Intro
 
 You have a dusty old Objective-C framework that you want to publish as a 

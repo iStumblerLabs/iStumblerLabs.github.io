@@ -7,8 +7,6 @@ tag:
 - radio frequency
 ---
 
-## The Bug Hunt
-
 <img src="/images/2015/20150818-aliens-script.webp" 
 alt="Is this going to be a dand-up fight, or, or another bug-hunt?" width="512">
 

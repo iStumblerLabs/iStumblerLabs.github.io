@@ -7,8 +7,6 @@ tag:
 - iphone
 ---
 
-## The Plus Sized Model
-
 <img alt="" src="https://cdn-images-1.medium.com/max/105/0*kiJXsEiyf604NzCi.jpg" />
 
 The rumors were true, the leaked components at least plausibly functional, it finally happened: 

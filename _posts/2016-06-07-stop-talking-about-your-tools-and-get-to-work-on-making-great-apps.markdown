@@ -7,8 +7,6 @@ tag:
 - programming
 ---
 
-## Stop talking about your tools and get to work making great apps…
-
 [Static vs. Dynamic](https://duckduckgo.com/?q=static+vs+dynamic+typing&t=osx&ia=web)? [Strong vs. Weak](https://duckduckgo.com/?q=strong+vs.+weak+typing&t=osx&ia=about)? [Functional vs. Objective](https://duckduckgo.com/?q=Functional+vs.+Objective+programming&t=osx&ia=qa)? [Duck vs. Strict](https://duckduckgo.com/?q=duck+vs+strong+typing&t=osx&ia=web)? [Tabs vs. Spaces](https://www.youtube.com/watch?v=oBkMztuHlVg)? [vi vs. emacs](https://duckduckgo.com/?q=which+is+better+vi+or+emacs&t=osx&ia=web)! [Code Review](https://medium.com/@istumbler/code-review-you-are-doing-it-wrong-2ec72db44f2a#.duw2w434l), [Code Style](https://duckduckgo.com/?q=code+style+guides&t=osx&ia=web), [Source Control](https://duckduckgo.com/?q=source+control+systems&t=osx&ia=about), [Build Systems](https://duckduckgo.com/?q=source+control+systems&t=osx&ia=about), [Compilers](https://duckduckgo.com/?q=source+control+systems&t=osx&ia=about) and [Stacks](https://duckduckgo.com/?q=LAMP&t=osx&iax=1&ia=images); oh, my.
 
 If you read the technology press, particularly those sites targeted towards developers and the myriad blogs produced by developers, you would think that the above questions and areas of concern are the most important things to consider when designing and developing an application. They aren’t.

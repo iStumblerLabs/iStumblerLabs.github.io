@@ -7,8 +7,6 @@ tag:
 - privacy
 ---
 
-## Safer Sexting
-
 ![Apple Nipple](/images/2014/SS-01-apple-nipple.webp)
 
 In the wake of the widespread leaks of intimate personal photos this last week, 

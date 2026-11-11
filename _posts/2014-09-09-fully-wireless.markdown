@@ -7,8 +7,6 @@ tag:
 - bluetooth
 ---
 
-## We Are Now Fully Wireless
-
 The Apple Watch is many things: a refined product entering an expectant market, 
 Apple’s first post-Steve product, a companion for your iPhone, a bundle of 
 sensors and a number of technical innovations; all wrapped up in an amazing 

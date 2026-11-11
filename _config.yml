@@ -24,3 +24,10 @@ kramdown:
 # theme: mimima
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
