@@ -19,7 +19,7 @@ No other industry invests in the tools the power of success or failure; attribut
 
 It’s this sense of great power and precise control that ties people in the technology field so tightly to their tools it ends up branding them: “Java Developer”, “C Coder” and “JavaScript Developer” are commonly used to describe the human resources we’ve all become, and all imply a fairly specific set of skills, traits and prejudices (ActionScript developers in particular). While familiarity with a particular set of tools is important to being a productive programmer, sometimes the tools you know best aren’t the right ones for the job.
 
-To the extent that [our jobs define who we are](http://www.cracked.com/blog/6-harsh-truths-that-will-make-you-better-person_p2/), our choice of tools says something about our particular temperaments and goals. But the critical skills are adaptability and the willingness to learn new technologies in order to deliver Apps which are designed with the User first in mind. Deciding on which tools you want to use for a particular App is putting the cart before the horse, figure out where you want to go and find out the best way to get there then choose the right tools for the task at hand.
+To the extent that [our jobs define who we are](https://web.archive.org/web/20160610145500/http://www.cracked.com:80/blog/6-harsh-truths-that-will-make-you-better-person_p2/), our choice of tools says something about our particular temperaments and goals. But the critical skills are adaptability and the willingness to learn new technologies in order to deliver Apps which are designed with the User first in mind. Deciding on which tools you want to use for a particular App is putting the cart before the horse, figure out where you want to go and find out the best way to get there then choose the right tools for the task at hand.
 
 #### Type Systems are S&M for Software Engineers
 
@@ -39,7 +39,7 @@ Here’s the thing, neither your favorite tool or the one chosen type system wil
 
 Platforms have native tools for app building, and learning those tools in order to deliver the App you want to your target users is a much smaller problem than figuring out who they are and what they want in the first place, then learning all the other tools you’ll need to manage delivery distribution and marketing of the product of that set of tools.
 
-Great apps are focused intently on their users and are honed over many revisions based on feedback from them. The easiest apps to write are the ones [you want](https://istumbler.net) for [your self](https://desklampx.com). Harder is writing apps which serve a [particular purpose](https://istumbler.net/labs/orangecard.html), or [test some ideas](https://qrtv.us) you have in a clean and concise way.
+Great apps are focused intently on their users and are honed over many revisions based on feedback from them. The easiest apps to write are the ones [you want](https://istumbler.net) for [your self](https://desklampx.com). Harder is writing apps which serve a [particular purpose](https://istumbler.net/labs/orangecard.html), or [test some ideas](https://web.archive.org/web/20170215191328/https://qrtv.us/) you have in a clean and concise way.
 
 #### Tools are Just Tools
 

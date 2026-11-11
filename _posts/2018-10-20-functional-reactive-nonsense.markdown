@@ -15,7 +15,7 @@ I suspect that these postings are the result of a manager trying to maintain a s
 
 Typically these stacks will provide an “Over the Top” solution to programing on the target platform, replacing some or all of the vendors native tools, with more “modern” or “advanced” or “convenient” or “expressive” or “safe” versions, often in combination, always without quantification. The sales pitches vary from sensible and desirable, such as allowing for cross platform development from a single code base to the outer orbits of architectural astronauts, looking for a [magic bullet solution](https://en.wikipedia.org/wiki/No_Silver_Bullet) to solve all software development problems with concise self documenting code.
 
-There are a few stacks I could poke holes in but today I’m going to focus on [Reactive Cocoa](http://reactivecocoa.io) ( [React Native](https://facebook.github.io/react-native/) was a close second). Generally any framework which intends to replace a portion of the native toolkit is likely to have similar issues, namely the tradeoff between Runtime, Development time, and Maintenance time doesn’t add up for real world usage. Let’s look at each of these in turn.
+There are a few stacks I could poke holes in but today I’m going to focus on [Reactive Cocoa](http://reactivecocoa.io) ( [React Native](https://reactnative.dev/) was a close second). Generally any framework which intends to replace a portion of the native toolkit is likely to have similar issues, namely the tradeoff between Runtime, Development time, and Maintenance time doesn’t add up for real world usage. Let’s look at each of these in turn.
 
 #### Runtime Performance Matters
 

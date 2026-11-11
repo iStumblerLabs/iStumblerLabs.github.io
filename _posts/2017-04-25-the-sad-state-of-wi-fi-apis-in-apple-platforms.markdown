@@ -17,7 +17,7 @@ I only ever have one wish for WWDC: **a single, comprehensive Wi-Fi API on all A
 
 Seems simple enough, we have had [CoreWLAN](https://developer.apple.com/library/mac/documentation/Networking/Reference/CoreWLANFrameworkRef/index.html) on macOS since [10.6](http://www.apple.com/shop/product/MC573Z/A/mac-os-x-106-snow-leopard). In fact, your truly got to introduce the feature at WWDC [citation needed] after working with World Wide Developer Relations organization and spending a lot of time persuading my colleges to just let it happen already.
 
-Just one small wrinkle; there was a question about _which_ Wi-Fi API was going to be published. That WWDC video isn’t available, I presume, because the API that I got up on stage and presented, wasn’t CoreWLAN, and neither the placeholder or the eventual incumbent were my first choice. But no matter, there was an API, it did everything that was needed and it replaced the reverse engineered [Apple80211.h](http://www.macstumbler.com/Apple80211.h) file everyone had been using up to that point.
+Just one small wrinkle; there was a question about _which_ Wi-Fi API was going to be published. That WWDC video isn’t available, I presume, because the API that I got up on stage and presented, wasn’t CoreWLAN, and neither the placeholder or the eventual incumbent were my first choice. But no matter, there was an API, it did everything that was needed and it replaced the reverse engineered [Apple80211.h](https://web.archive.org/web/20190718071822/http://www.macstumbler.com/Apple80211.h) file everyone had been using up to that point.
 
 ![](https://cdn-images-1.medium.com/max/460/1*FumEQDdB_Z_EsAlBTk_chg.jpeg "We’re done here, right?")
 
@@ -25,7 +25,7 @@ Just one small wrinkle; there was a question about _which_ Wi-Fi API was going t
 
 As happy as I was to help publish the Wi-Fi API and get it introduced it to the world, my real motivation was to update iStumbler. It took a little while after the release of SnowLeopard until I was able to get permission to ship [iStumbler Release 99](https://istumbler.net/archive/release99/) in February 2010.
 
-Despite my selfish motivation, I am very proud to have enabled a number of other Wi-Fi apps, which eventually made their way to, the Mac App store. Even if one of them is an [unbelievable facile](https://itunes.apple.com/us/app/wifi-manager/id483772322?mt=12) compile and submit of the example code for CoreWLAN:
+Despite my selfish motivation, I am very proud to have enabled a number of other Wi-Fi apps, which eventually made their way to, the Mac App store. Even if one of them is an [unbelievable facile](https://web.archive.org/web/20120615033532/http://itunes.apple.com:80/us/app/wifi-manager/id483772322) compile and submit of the example code for CoreWLAN:
 
 ![](https://cdn-images-1.medium.com/max/1024/1*cXnkMrtRyKMIfQJOae3zMA.png "Something is missing…")
 
@@ -44,7 +44,7 @@ Much has been written about the limitations of the App Sandbox and the Mac App s
 
 > With App Sandbox, your app cannot modify the system’s network configuration (whether with the System Configuration framework, the CoreWLAN framework, or other similar APIs) because doing so requires administrator privileges.
 
-Which means iStumbler stuck outside of the App Store and it’s throngs of paying customers, and instead has to rely on discovery and sales via my [web site](https://istumbler.net/store.html) (hint-hint). But it’s worse for the developers who have Wi-Fi apps already on the store: they can’t be updated with new features, because that would require sandboxing. Which isn’t allowed.
+Which means iStumbler stuck outside of the App Store and it’s throngs of paying customers, and instead has to rely on discovery and sales via my [web site](https://istumbler.net/store/) (hint-hint). But it’s worse for the developers who have Wi-Fi apps already on the store: they can’t be updated with new features, because that would require sandboxing. Which isn’t allowed.
 
 This creates a tenuous situation for people trying to make a living writing applications which utilize Wi-Fi. You can imagine my dismay when 10.11 shipped and iStumbler started emitting this warning:
 

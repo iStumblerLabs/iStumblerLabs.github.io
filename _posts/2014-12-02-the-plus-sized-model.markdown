@@ -19,7 +19,7 @@ The iPhone was designed to fit in your hand, not land small aircraft, which make
 sometimes the market is all feels and no reals.
 
 
-So here we are, [adjusting our pocket sizes]("https://www.kickstarter.com/projects/zoltancsaki/1984-stealth-fashion-for-the-under-surveillance-so/posts/980843) queuing up for new devices.
+So here we are, [adjusting our pocket sizes](https://www.kickstarter.com/projects/zoltancsaki/1984-stealth-fashion-for-the-under-surveillance-so/posts/980843) queuing up for new devices.
 
 ### DON’T HOLD IT LIKE THAT
 
