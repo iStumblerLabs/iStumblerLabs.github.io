@@ -96,4 +96,4 @@ Now, I noted at the beginning of the article that iStumbler used to be Open Sour
 
 Well, I ended up broke. Possibly because I spent to much time fixing bug and not enough marketing and developing new features. But, now that I’m gainfully employed again and feeling generous, here’s the source of my ReportWindow framework so your app doesn’t suffer the same fate:
 
-[Report Window](https://github.com/iStumblerLabs/ReportWindow)
+[Report Window](https://github.com/alfwatt/ReportWindow)

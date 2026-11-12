@@ -12,13 +12,13 @@ Library. Here’s how.
 iStumbler Labs publishes a number of Objective-C frameworks and they all need updating 
 to work with Swift Package Manager:
 
-- [KitBridge](https://github.com/iStumblerLabs/KitBridge) — KitBridge allows you to create views which can be used in iOS, iPadOS, macOS, and tvOS applications.
-  - [SparkKit](https://github.com/iStumblerLabs/SparkKit) - Small, Simple and Fast; Line, Pie, Dial, Bar, Ring, Stack and Grid Views for macOS, iOS and tvOS
-  - [CardView](https://github.com/iStumblerLabs/CardView) – A Good looking subclasses of NSTextView & UITextView
-  - [FourCorners](https://github.com/iStumblerLabs/FourCorners) - Utilities to make working with CoreLocation easier
-- [LiveBundle](https://github.com/iStumblerLabs/LiveBundle) — LiveBundle is a category which provides dynamic updating of resources from your web server
-- [Soup](https://github.com/iStumblerLabs/Soup) – An object oriented persistence framework from iStumbler Labs modeled on the Apple Newton API
-- [IcedHTTP](https://github.com/iStumblerLabs/IcedHTTP) - A very small HTTP Server framework suitable for embedding into iOS or Mac OS Apps
+- [KitBridge](https://github.com/alfwatt/KitBridge) — KitBridge allows you to create views which can be used in iOS, iPadOS, macOS, and tvOS applications.
+  - [SparkKit](https://github.com/alfwatt/SparkKit) - Small, Simple and Fast; Line, Pie, Dial, Bar, Ring, Stack and Grid Views for macOS, iOS and tvOS
+  - [CardView](https://github.com/alfwatt/CardView) – A Good looking subclasses of NSTextView & UITextView
+  - [FourCorners](https://github.com/alfwatt/FourCorners) - Utilities to make working with CoreLocation easier
+- [LiveBundle](https://github.com/alfwatt/LiveBundle) — LiveBundle is a category which provides dynamic updating of resources from your web server
+- [Soup](https://github.com/alfwatt/Soup) – An object oriented persistence framework from iStumbler Labs modeled on the Apple Newton API
+- [IcedHTTP](https://github.com/alfwatt/IcedHTTP) - A very small HTTP Server framework suitable for embedding into iOS or Mac OS Apps
 
 Updating all of these for Swift Package Manager was a bit of a chore but there's an easy to implement process to make it less painless.
 
